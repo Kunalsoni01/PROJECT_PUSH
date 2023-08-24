@@ -1,0 +1,80 @@
+
+.AboutContaint{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/hero_1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AboutContaint h1{
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    padding: 200px;
+}
+.main-Containt{
+    width: 82%;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-right: 25px;
+    margin-left: 30px;
+    position: absolute;
+    left: 150px;
+    padding-bottom: 100px;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    
+}
+.about-col{
+    flex-basis: 40%;
+    margin: 0px 65px;
+}
+.about-col h2{
+    color: orangered;
+}
+.about-col h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.about-col p{
+    font-size: 16px;
+    color: #777;
+}
+button{
+    width: 112px;
+    height: 35px;
+    border: 1px solid orangered;
+    font-size: 16px;
+    font-weight: 400;
+    background: transparent;
+    color: orangered;
+    border-radius: 8px;
+    transition: 0.5s color;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    
+}
+button:hover{
+    background-color: orangered;
+    border: none;
+    color: white;
+}
+.about-col img{
+    width: 236px;
+}
+
+.img-2{
+    display: flex;
+    float: right;
+    padding-top: 20px;
+}
